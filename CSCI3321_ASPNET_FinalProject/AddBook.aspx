@@ -65,12 +65,34 @@
         </div>
         &nbsp;<br />
 
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            &nbsp;
+
+        </div>
         <div class="col-md-9">
             <asp:Button ID="btnSubmitBook" runat="server" Text="Add Book" CssClass="btn btn-primary" OnClick="btnSubmitBook_Click" />
         </div>
         
+        &nbsp;<br />
+      </div>
 
-    </div>
+        &nbsp;<br />
+
+        <div>
+            <asp:Panel ID="pnlBookList" runat="server" Visible="true">
+            <asp:Table ID="tblBookList" runat="server" CssClass="table table-dark table-striped">
+                <asp:TableHeaderRow>
+                    <asp:TableHeaderCell>Book Title</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Author's Last name</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Author's First name</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Price</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Publish date</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Publisher's name</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Genre</asp:TableHeaderCell>
+                </asp:TableHeaderRow>
+            </asp:Table>
+            </asp:Panel>
+        </div>
+
 
 </asp:Content>
