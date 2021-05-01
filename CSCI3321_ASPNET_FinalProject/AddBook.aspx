@@ -9,7 +9,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtTitle" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
-        <br />
+        &nbsp;<br />
 
         <div class="col-md-3">
             Price:
@@ -17,7 +17,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtPrice" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
-        <br />
+        &nbsp;<br />
 
         <div class="col-md-3">
             Publish date:
@@ -25,7 +25,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtPublishDate" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
         </div>
-        <br />
+        &nbsp;<br />
 
         <div class="col-md-3">
             Author's last name:
@@ -35,7 +35,7 @@
             </asp:DropDownList>
             <asp:SqlDataSource ID="sdsAuthor" runat="server" ConnectionString="<%$ ConnectionStrings:DBConnectionString %>" ProviderName="<%$ ConnectionStrings:DBConnectionString.ProviderName %>" SelectCommand="SELECT AuthorID, LastName FROM Authors"></asp:SqlDataSource>
         </div>
-        <br />
+        &nbsp;<br />
 
         <div class="col-md-3">
             Publisher:
@@ -45,7 +45,7 @@
             </asp:DropDownList>
             <asp:SqlDataSource ID="sdsPublisher" runat="server" ConnectionString="<%$ ConnectionStrings:DBConnectionString %>" ProviderName="<%$ ConnectionStrings:DBConnectionString.ProviderName %>" SelectCommand="SELECT PublisherID, PublisherName FROM Publishers"></asp:SqlDataSource>
         </div>
-        <br />
+        &nbsp;<br />
 
         <div class="col-md-3">
             Genre:
@@ -55,7 +55,7 @@
             </asp:DropDownList>
             <asp:SqlDataSource ID="sdsGenre" runat="server" ConnectionString="<%$ ConnectionStrings:DBConnectionString %>" ProviderName="<%$ ConnectionStrings:DBConnectionString.ProviderName %>" SelectCommand="SELECT GenreID, GenreName FROM Genres"></asp:SqlDataSource>
         </div>
-        <span></span>
+        &nbsp;<br />
 
         <div class="col-md-3">
             Word Count:
@@ -63,12 +63,13 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtWordCount" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
-        <br />
+        &nbsp;<br />
 
         <div class="col-md-3"></div>
         <div class="col-md-9">
             <asp:Button ID="btnSubmitBook" runat="server" Text="Add Book" CssClass="btn btn-primary" OnClick="btnSubmitBook_Click" />
         </div>
+        
 
     </div>
 

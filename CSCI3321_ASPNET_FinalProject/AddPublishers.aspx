@@ -12,6 +12,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtPublishName" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
+        &nbsp;<br />
 
         <div class="col-md-3">
             Address:
@@ -19,6 +20,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
+        &nbsp;<br />
 
         <div class="col-md-3">
             City:
@@ -26,6 +28,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtCity" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
+        &nbsp;<br />
 
         <div class="col-md-3">
             Postal Code:
@@ -33,6 +36,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtPostal" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
+        &nbsp;<br />
 
         <div class="col-md-3">
             Country:
@@ -40,6 +44,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtCountry" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
+        &nbsp;<br />
 
         <div class="col-md-3">
             Phone:
@@ -47,6 +52,7 @@
         <div class="col-md-9">
             <asp:TextBox ID="txtPhone" runat="server" CssClass="form-control"></asp:TextBox>
         </div>
+        &nbsp;<br />
 
         <div class="col-md-3"></div>
         <div class="col-md-9">
