@@ -28,8 +28,7 @@
         &nbsp;<br />
 
         <div class="col-md-3">
-            Author's last name:
-        </div>
+            Author's last name:</div>
         <div class="col-md-9">
             <asp:DropDownList ID="ddlAuthor" runat="server" DataSourceID="sdsAuthor" DataTextField="LastName" DataValueField="AuthorID">
             </asp:DropDownList>

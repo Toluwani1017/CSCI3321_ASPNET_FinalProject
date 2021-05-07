@@ -32,18 +32,6 @@ namespace CSCI3321_ASPNET_FinalProject
             cmd.CommandText = "SELECT Title, LastName, FirstName, Price, PublishDate, PublisherName, GenreName FROM Books " +
                 "INNER JOIN Authors ON Books.AuthorID = Authors.AuthorID INNER JOIN Genres ON Books.GenreID = Genres.GenreID INNER JOIN Publishers ON Books.PublisherID = Publishers.PublisherID ";
 
-            //cmd.CommandText = "SELECT Books.Title, Authors.LastName, Authors.FirstName, Books.Price, Books.PublishDate, Publishers.PublisherName, Genre.GenreName " +
-            //    "From Books AS bk" +
-            //    "INNER JOIN" +
-            //    "Authors as a" +
-            //    "ON bk.AuthorID = a.AuthorID" +
-            //    "INNER JOIN" +
-            //    "Genres as g" +
-            //    "ON bk.GenreID = g.GenreID" +
-            //    "INNER JOIN" +
-            //    "Publishers as p" +
-            //    "ON bk.PublisherID = p.PublisherID";
-            //    ;
 
             conn1.Open();
             SqlDataReader reader = cmd.ExecuteReader();
