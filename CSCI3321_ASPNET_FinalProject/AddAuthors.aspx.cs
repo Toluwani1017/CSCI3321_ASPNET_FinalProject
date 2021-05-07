@@ -33,5 +33,10 @@ namespace CSCI3321_ASPNET_FinalProject
 
             Response.Redirect("AddAuthors.aspx");
         }
+
+        protected void btnAddBookNav_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddBook.aspx");
+        }
     }
 }

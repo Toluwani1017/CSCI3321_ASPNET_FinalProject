@@ -61,4 +61,8 @@
 
     </div>
 
+    <div style="position: fixed; left: 20px; top: 91px;">
+            <asp:Button ID="btnAddBookNav" runat="server" Text="Add new book" CssClass="btn btn-primary" OnClick="btnAddBookNav_Click" />
+    </div>
+
 </asp:Content>
