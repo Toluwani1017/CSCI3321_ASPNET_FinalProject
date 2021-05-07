@@ -7,6 +7,23 @@
             <asp:Button ID="btnAddBookNav" runat="server" Text="Add new book" CssClass="btn btn-primary" OnClick="btnAddBookNav_Click" />
     </div>
 
+     &nbsp;<br />
+
+        <div>
+            <asp:Panel ID="pnlBookList" runat="server" Visible="true">
+            <asp:Table ID="tblBookList" runat="server" CssClass="table table-dark table-striped">
+                <asp:TableHeaderRow>
+                    <asp:TableHeaderCell>Book Title</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Author's Last name</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Author's First name</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Price</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Publish date</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Publisher's name</asp:TableHeaderCell>
+                    <asp:TableHeaderCell>Genre</asp:TableHeaderCell>
+                </asp:TableHeaderRow>
+            </asp:Table>
+            </asp:Panel>
+        </div>
 
         
 </asp:Content>

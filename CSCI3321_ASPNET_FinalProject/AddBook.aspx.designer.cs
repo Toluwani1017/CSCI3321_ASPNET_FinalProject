@@ -114,21 +114,30 @@ namespace CSCI3321_ASPNET_FinalProject
         protected global::System.Web.UI.WebControls.Button btnSubmitBook;
 
         /// <summary>
-        /// pnlBookList control.
+        /// lblFields control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlBookList;
+        protected global::System.Web.UI.WebControls.Label lblFields;
 
         /// <summary>
-        /// tblBookList control.
+        /// btnAddnewAuthor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table tblBookList;
+        protected global::System.Web.UI.WebControls.Button btnAddnewAuthor;
+
+        /// <summary>
+        /// btnAddnewPublisher control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAddnewPublisher;
     }
 }
